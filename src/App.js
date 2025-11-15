@@ -2,6 +2,7 @@ import { useState } from "react";
 import Square from "./square";
 
 export default function App() {
+  
   const [squares, setSquares] = useState(Array(9).fill(null));
   const [isXTurn, setIsXTurn] = useState(true);
 
